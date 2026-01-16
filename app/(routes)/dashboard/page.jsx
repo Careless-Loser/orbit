@@ -7,6 +7,8 @@ import BarChartDashboard from "./_components/BarChartDashboard";
 import ExpenseListTable from "../dashboard/expenses/_components/ExpenseListTable";
 import SavingTips from "./_components/SavingTips"; // New Component
 
+export const dynamic = 'force-dynamic';
+
 export default async function DashboardPage() {
   try {
     const user = await currentUser();
